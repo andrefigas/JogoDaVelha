@@ -7,10 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6311AD8429E047D40079B596 /* game_play.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6311AD8329E047D40079B596 /* game_play.cpp */; };
+		6311ADBE29E0E65A0079B596 /* mainTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6311ADBD29E0E65A0079B596 /* mainTest.cpp */; };
+		6311ADC229E0E7FB0079B596 /* view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631EA6B229DFB11F009939E5 /* view.cpp */; };
+		6311ADC429E0EA0D0079B596 /* InteligenceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6311ADC329E0EA0D0079B596 /* InteligenceTest.cpp */; };
+		6311ADC529E0F55F0079B596 /* inteligence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631EA6AF29DFAA71009939E5 /* inteligence.cpp */; };
 		631EA69E29DF97DB009939E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631EA69D29DF97DB009939E5 /* main.cpp */; };
+		631EA6A929DF9AE6009939E5 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631EA6A729DF9AE6009939E5 /* game.cpp */; };
+		631EA6B129DFAA71009939E5 /* inteligence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631EA6AF29DFAA71009939E5 /* inteligence.cpp */; };
+		631EA6B429DFB11F009939E5 /* view.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 631EA6B229DFB11F009939E5 /* view.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		6311ADB929E0E65A0079B596 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		631EA69829DF97DB009939E5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +40,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6311AD8229E047960079B596 /* game_play.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_play.h; sourceTree = "<group>"; };
+		6311AD8329E047D40079B596 /* game_play.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_play.cpp; sourceTree = "<group>"; };
+		6311ADBB29E0E65A0079B596 /* JogoDaVelhaTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JogoDaVelhaTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6311ADBD29E0E65A0079B596 /* mainTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mainTest.cpp; sourceTree = "<group>"; };
+		6311ADC329E0EA0D0079B596 /* InteligenceTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InteligenceTest.cpp; sourceTree = "<group>"; };
 		631EA69A29DF97DB009939E5 /* JogoDaVelha */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JogoDaVelha; sourceTree = BUILT_PRODUCTS_DIR; };
 		631EA69D29DF97DB009939E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		631EA6A729DF9AE6009939E5 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		631EA6AD29DF9F31009939E5 /* game_contract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_contract.h; sourceTree = "<group>"; };
+		631EA6AF29DFAA71009939E5 /* inteligence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inteligence.cpp; sourceTree = "<group>"; };
+		631EA6B029DFAA71009939E5 /* inteligence_contract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inteligence_contract.h; sourceTree = "<group>"; };
+		631EA6B229DFB11F009939E5 /* view.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = view.cpp; sourceTree = "<group>"; };
+		631EA6B629DFB3BD009939E5 /* view_contract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = view_contract.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6311ADB829E0E65A0079B596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		631EA69729DF97DB009939E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6311ADBC29E0E65A0079B596 /* JogoDaVelhaTest */ = {
+			isa = PBXGroup;
+			children = (
+				6311ADBD29E0E65A0079B596 /* mainTest.cpp */,
+				6311ADC329E0EA0D0079B596 /* InteligenceTest.cpp */,
+			);
+			path = JogoDaVelhaTest;
+			sourceTree = "<group>";
+		};
 		631EA69129DF97DB009939E5 = {
 			isa = PBXGroup;
 			children = (
 				631EA69C29DF97DB009939E5 /* JogoDaVelha */,
+				6311ADBC29E0E65A0079B596 /* JogoDaVelhaTest */,
 				631EA69B29DF97DB009939E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				631EA69A29DF97DB009939E5 /* JogoDaVelha */,
+				6311ADBB29E0E65A0079B596 /* JogoDaVelhaTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				631EA69D29DF97DB009939E5 /* main.cpp */,
+				631EA6A729DF9AE6009939E5 /* game.cpp */,
+				631EA6AD29DF9F31009939E5 /* game_contract.h */,
+				631EA6AF29DFAA71009939E5 /* inteligence.cpp */,
+				631EA6B029DFAA71009939E5 /* inteligence_contract.h */,
+				631EA6B229DFB11F009939E5 /* view.cpp */,
+				631EA6B629DFB3BD009939E5 /* view_contract.h */,
+				6311AD8229E047960079B596 /* game_play.h */,
+				6311AD8329E047D40079B596 /* game_play.cpp */,
 			);
 			path = JogoDaVelha;
 			sourceTree = "<group>";
@@ -65,6 +119,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6311ADBA29E0E65A0079B596 /* JogoDaVelhaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6311ADBF29E0E65A0079B596 /* Build configuration list for PBXNativeTarget "JogoDaVelhaTest" */;
+			buildPhases = (
+				6311ADB729E0E65A0079B596 /* Sources */,
+				6311ADB829E0E65A0079B596 /* Frameworks */,
+				6311ADB929E0E65A0079B596 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoDaVelhaTest;
+			productName = JogoDaVelhaTest;
+			productReference = 6311ADBB29E0E65A0079B596 /* JogoDaVelhaTest */;
+			productType = "com.apple.product-type.tool";
+		};
 		631EA69929DF97DB009939E5 /* JogoDaVelha */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 631EA6A129DF97DB009939E5 /* Build configuration list for PBXNativeTarget "JogoDaVelha" */;
@@ -89,8 +160,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					6311ADBA29E0E65A0079B596 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					631EA69929DF97DB009939E5 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -110,22 +185,54 @@
 			projectRoot = "";
 			targets = (
 				631EA69929DF97DB009939E5 /* JogoDaVelha */,
+				6311ADBA29E0E65A0079B596 /* JogoDaVelhaTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6311ADB729E0E65A0079B596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6311ADC229E0E7FB0079B596 /* view.cpp in Sources */,
+				6311ADC429E0EA0D0079B596 /* InteligenceTest.cpp in Sources */,
+				6311ADBE29E0E65A0079B596 /* mainTest.cpp in Sources */,
+				6311ADC529E0F55F0079B596 /* inteligence.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		631EA69629DF97DB009939E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6311AD8429E047D40079B596 /* game_play.cpp in Sources */,
+				631EA6B429DFB11F009939E5 /* view.cpp in Sources */,
+				631EA6B129DFAA71009939E5 /* inteligence.cpp in Sources */,
 				631EA69E29DF97DB009939E5 /* main.cpp in Sources */,
+				631EA6A929DF9AE6009939E5 /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6311ADC029E0E65A0079B596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6311ADC129E0E65A0079B596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		631EA69F29DF97DB009939E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -254,6 +361,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6311ADBF29E0E65A0079B596 /* Build configuration list for PBXNativeTarget "JogoDaVelhaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6311ADC029E0E65A0079B596 /* Debug */,
+				6311ADC129E0E65A0079B596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		631EA69529DF97DB009939E5 /* Build configuration list for PBXProject "JogoDaVelha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
