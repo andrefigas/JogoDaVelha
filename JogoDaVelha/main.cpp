@@ -6,9 +6,19 @@
 //
 
 #include <iostream>
+#include "game_play.h"
+#include "view_contract.h"
+#include "inteligence_contract.h"
+
+ViewContract* createConsleView();
+InteligenceContract* createInteligence();
+GameContract* createGame();
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    ViewContract* view = createConsleView();
+    InteligenceContract* inteligence = createInteligence();
+    GameContract* game = createGame();
+    GamePlay* gamePlay = new GamePlay(view, inteligence, game);
+    gamePlay->init();
     return 0;
 }
